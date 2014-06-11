@@ -1,0 +1,176 @@
+/* Your Website Styles */
+
+body {
+  background: #171F2E;
+  font-family: 'Raleway', sans-serif;
+}
+.grid_5 img {
+  width: 30em;
+  text-align: center;
+}
+
+.grid_12 p {
+text-align: justify;
+width: 32em;
+}
+
+h1{
+  color: #D357BE;
+  font-size: 4em;
+  letter-spacing: .02em;
+  margin: 2% 0 2% 0;
+  text-align: center;
+  width: 100%;
+}
+h2 {
+  color:#2DA859;
+  font-size: 3em;
+}
+h3 {
+  color: #5E9EB0;
+}
+p {
+  color: white;
+  font-family: 'Quattrocento Sans', sans-serif;
+  font-size: 1.15em;
+  line-height: 1.25em;
+  width: 500px;
+}
+li {
+  color: white;
+  font-family: 'Quattrocento Sans', sans-serif;
+  list-style: none;
+  text-indent: 2em
+}
+.programs img {
+  width: 30px;
+  padding-left: 2em;
+  border: none;
+}
+
+.resume {
+  text-align: center left;
+  width: 30em;
+  margin: 0 auto 0 auto;
+}
+
+.resume h3 {
+  font-size: 1.5em;
+}
+/*
+	Theme controls how everything looks in Gallery CSS.
+*/
+.gallery {
+  position: relative;
+}
+
+.gallery .item {
+  height: 620px;
+  text-align: center;
+  width: 100%;
+  margin: 1% 0 1% 0;
+}
+
+img {
+  border: 10px solid #D357BE;
+}
+
+.gallery .controls {
+  position: absolute;
+  padding-top: 2em;
+  width: 100%;
+  text-align: center;
+}
+
+.gallery .controls img {
+  border: 5px solid #5E9EB0;
+  opacity: .8;
+}
+
+.gallery .controls img:hover {
+  border: 5px solid #D357BE;
+  opacity: 1;
+}
+
+.gallery .control-button {
+  display: inline-block;
+  padding: 0 .75%;
+  font-size: 3em;
+  text-align: center;
+  text-decoration: none;
+  transition: 1s;
+}
+
+/*Media Queries*/
+
+@media screen and (max-width: 1200px) {
+
+      .item img{
+    max-width: 100%;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+
+     .item img {
+    max-width: 100%
+  }
+}
+
+@media screen and (max-width: 768px) {
+
+  .item img{
+    max-width: 100%;
+  } 
+  .controls img{
+    max-width: 100%;
+  }    
+  h1 {
+      font-size: 3.75em;
+    }
+     .gallery .control-button {
+      padding: 0 .25em;
+    }
+
+}
+
+@media screen and (max-width: 650px) {
+  .grid_5 img {
+  width: 85%;
+  text-align: center;
+}
+
+.grid_12 p {
+text-align: justify;
+width: 95%;
+}
+}
+
+@media screen and (max-width: 572px) {
+    .gallery .control-button {
+      padding: 0 3% 0 11%;
+    }
+     .item img{
+    max-width: 90%;
+  } 
+  }
+
+
+@media screen and (max-width: 480px) {
+
+  .item img{
+    max-width: 90%;
+  }
+  .control {
+    margin: 2%;
+  }
+  .gallery .controls img {
+    max-width: 100%}
+    h1 {
+      font-size: 3.25em;
+    }
+    .gallery .control-button {
+      padding: 0 3% 0 6%;
+    }
+
+ }
